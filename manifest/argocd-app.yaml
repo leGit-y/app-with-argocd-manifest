@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: argocd-app-container
-        image: dockerlecture/app-with-argocd:latest
+        image: enniley/app-with-argocd:472b1f7d79482964f843466118a3b9f8b2cad18e
         ports:
           - protocol: TCP
             containerPort: 8080
